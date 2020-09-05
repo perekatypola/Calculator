@@ -557,7 +557,7 @@ public class Calculator {
         inText.setFont(inText.getFont().deriveFont(Font.BOLD));
         double y = Double.parseDouble(input);
         if (opt == '+') {
-            return x + y;
+            return x * y;
         } else if (opt == '-') {
             return x - y;
         } else if (opt == '*') {
